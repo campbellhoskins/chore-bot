@@ -16,11 +16,11 @@
         "choreId": "chore-2",
         "assignedAt": "2026-02-01T22:31:14.413Z",
         "confirmationToken": "b30ae2f75a49d6fed41ed4b4e96c94bc",
-        "confirmedAt": null,
+        "confirmedAt": "2026-02-01T22:41:12.017Z",
         "reminderSentAt": null
       }
     ]
   },
   "history": [],
-  "lastUpdated": "2026-02-01T22:38:12.134Z"
+  "lastUpdated": "2026-02-01T22:41:12.017Z"
 }
