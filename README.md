@@ -38,15 +38,6 @@ A serverless household chore management system that automates weekly chore rotat
 └─────────────────┘     └──────────────────┘     └─────────────────┘
 ```
 
-### Design Decisions
-
-| Decision | Rationale |
-|----------|-----------|
-| **GitHub Actions for scheduling** | Free tier supports cron jobs; no always-on server needed |
-| **JSON file storage** | Eliminates database costs; version-controlled state history |
-| **Vercel serverless functions** | Free tier handles API endpoints; auto-scales |
-| **GitHub API for state updates** | Allows web endpoints to persist data without server |
-| **Token-based auth** | Simple, secure confirmation without user accounts |
 
 ## Tech Stack
 
