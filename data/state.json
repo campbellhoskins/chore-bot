@@ -8,7 +8,7 @@
         "choreId": "chore-1",
         "assignedAt": "2026-02-01T22:31:14.413Z",
         "confirmationToken": "b8fe28406b1c7eb4633b887cdaf3efe5",
-        "confirmedAt": null,
+        "confirmedAt": "2026-02-01T22:38:12.134Z",
         "reminderSentAt": null
       },
       {
@@ -22,5 +22,5 @@
     ]
   },
   "history": [],
-  "lastUpdated": "2026-02-01T22:31:15.294Z"
+  "lastUpdated": "2026-02-01T22:38:12.134Z"
 }
