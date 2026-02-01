@@ -1,0 +1,26 @@
+{
+  "currentWeek": {
+    "weekOf": "2026-02-01T00:00:00.000Z",
+    "rotationIndex": 0,
+    "assignments": [
+      {
+        "memberId": "member-1",
+        "choreId": "chore-1",
+        "assignedAt": "2026-02-01T22:31:14.413Z",
+        "confirmationToken": "b8fe28406b1c7eb4633b887cdaf3efe5",
+        "confirmedAt": null,
+        "reminderSentAt": null
+      },
+      {
+        "memberId": "member-2",
+        "choreId": "chore-2",
+        "assignedAt": "2026-02-01T22:31:14.413Z",
+        "confirmationToken": "b30ae2f75a49d6fed41ed4b4e96c94bc",
+        "confirmedAt": null,
+        "reminderSentAt": null
+      }
+    ]
+  },
+  "history": [],
+  "lastUpdated": "2026-02-01T22:31:15.294Z"
+}

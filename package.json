@@ -1,0 +1,26 @@
+{
+  "name": "chore-bot",
+  "version": "1.0.0",
+  "description": "Household chore rotation bot with SMS notifications",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "rotate": "npx tsx src/scripts/rotate.ts",
+    "remind": "npx tsx src/scripts/remind.ts",
+    "summary": "npx tsx src/scripts/summary.ts"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.0",
+    "dotenv": "^17.2.3",
+    "twilio": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vercel/node": "^3.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  }
+}

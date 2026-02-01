@@ -1,0 +1,35 @@
+{
+  "household": {
+    "name": "Campbell's House",
+    "timezone": "America/Los_Angeles",
+    "rotationDay": 0,
+    "rotationHour": 17,
+    "reminderHoursAfter": 24
+  },
+  "members": [
+    {
+      "id": "member-1",
+      "name": "Campbell",
+      "phone": "+19253301137",
+      "isAdmin": true
+    },
+    {
+      "id": "member-2",
+      "name": "Test",
+      "phone": "+19253301137",
+      "isAdmin": false
+    }
+  ],
+  "chores": [
+    {
+      "id": "chore-1",
+      "name": "Kitchen",
+      "description": "Clean counters and mop floor"
+    },
+    {
+      "id": "chore-2",
+      "name": "Bathroom",
+      "description": "Clean toilet, sink, and shower"
+    }
+  ]
+}

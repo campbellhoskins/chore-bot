@@ -1,0 +1,44 @@
+name: Daily Reminder Check
+
+on:
+  schedule:
+    # Run every day at 6pm PST (2am UTC next day)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Manual trigger for testing
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run reminder script
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          VERCEL_URL: ${{ vars.VERCEL_URL }}
+        run: npm run remind
+
+      - name: Commit state changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/state.json
+          git diff --staged --quiet || git commit -m "chore: update state after reminder check"
+          git push
