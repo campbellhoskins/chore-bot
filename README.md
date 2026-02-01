@@ -1,10 +1,12 @@
 # Chore Bot
 
-A serverless household chore management system that automates weekly chore rotation with SMS notifications, web-based confirmations, and persistent state management.
+Four young men in a post-grad house. Zero brooms being picked up. You can imagine how that was going.
+
+Rather than argue about whose turn it was to clean, I built Chore Bot—a system that rotates chores weekly and texts each housemate their assignment. Click a link when you're done, and I get a weekly summary of who actually did their part. No chore wheel debates. No "I thought it was your turn." Just automated accountability via text.
 
 ## Overview
 
-Chore Bot solves the common household problem of fairly distributing chores among roommates. It automatically rotates chore assignments weekly, sends SMS reminders, and tracks completion through a simple web interface - all running on free-tier cloud services.
+A serverless household chore management system that automates weekly chore rotation with SMS notifications, web-based confirmations, and persistent state management—all running on free-tier cloud services.
 
 ### Key Features
 
