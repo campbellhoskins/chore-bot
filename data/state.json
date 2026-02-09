@@ -1,27 +1,49 @@
 {
   "currentWeek": {
-    "weekOf": "2026-02-01T00:00:00.000Z",
-    "rotationIndex": 1,
+    "weekOf": "2026-02-08T00:00:00.000Z",
+    "rotationIndex": 0,
     "assignments": [
       {
         "memberId": "member-1",
-        "choreId": "chore-2",
-        "assignedAt": "2026-02-02T03:41:33.534Z",
-        "confirmationToken": "411fa6d0574e123dbda941e2eaa2170f",
+        "choreId": "chore-1",
+        "assignedAt": "2026-02-09T03:43:37.662Z",
+        "confirmationToken": "3f4eabe6bd65528446e816dd039443ff",
         "confirmedAt": null,
-        "reminderSentAt": "2026-02-03T04:21:09.025Z"
+        "reminderSentAt": null
       },
       {
         "memberId": "member-2",
-        "choreId": "chore-1",
-        "assignedAt": "2026-02-02T03:41:33.534Z",
-        "confirmationToken": "d7f3ff480095754240e170f6ac6e75ab",
+        "choreId": "chore-2",
+        "assignedAt": "2026-02-09T03:43:37.662Z",
+        "confirmationToken": "f6a958f03981dfb4ef75668630635fcb",
         "confirmedAt": null,
-        "reminderSentAt": "2026-02-03T04:21:09.182Z"
+        "reminderSentAt": null
       }
     ]
   },
   "history": [
+    {
+      "weekOf": "2026-02-01T00:00:00.000Z",
+      "rotationIndex": 1,
+      "assignments": [
+        {
+          "memberId": "member-1",
+          "choreId": "chore-2",
+          "assignedAt": "2026-02-02T03:41:33.534Z",
+          "confirmationToken": "411fa6d0574e123dbda941e2eaa2170f",
+          "confirmedAt": null,
+          "reminderSentAt": "2026-02-03T04:21:09.025Z"
+        },
+        {
+          "memberId": "member-2",
+          "choreId": "chore-1",
+          "assignedAt": "2026-02-02T03:41:33.534Z",
+          "confirmationToken": "d7f3ff480095754240e170f6ac6e75ab",
+          "confirmedAt": null,
+          "reminderSentAt": "2026-02-03T04:21:09.182Z"
+        }
+      ]
+    },
     {
       "weekOf": "2026-02-01T00:00:00.000Z",
       "rotationIndex": 0,
@@ -45,5 +67,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-03T04:21:09.182Z"
+  "lastUpdated": "2026-02-09T03:43:38.238Z"
 }
