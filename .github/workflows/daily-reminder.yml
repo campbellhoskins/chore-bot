@@ -1,9 +1,9 @@
 name: Daily Reminder Check
 
 on:
-  schedule:
-    # Run every day at 6pm PST (2am UTC next day)
-    - cron: '0 2 * * *'
+  # schedule:
+  #   # Run every day at 6pm PST (2am UTC next day)
+  #   - cron: '0 2 * * *'
   workflow_dispatch: # Manual trigger for testing
 
 jobs:

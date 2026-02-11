@@ -1,10 +1,10 @@
 name: Weekly Chore Rotation
 
 on:
-  schedule:
-    # Sunday at 5pm PST = Monday at 1am UTC (PST is UTC-8)
-    # Note: During PDT (March-Nov), this runs at 6pm PDT
-    - cron: '0 1 * * 1'
+  # schedule:
+  #   # Sunday at 5pm PST = Monday at 1am UTC (PST is UTC-8)
+  #   # Note: During PDT (March-Nov), this runs at 6pm PDT
+  #   - cron: '0 1 * * 1'
   workflow_dispatch: # Manual trigger for testing
 
 jobs:
